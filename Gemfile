@@ -12,6 +12,8 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat', '0.7.3'
+  gem 'spork'
+  gem 'shoulda'
 end
 
 # Use SCSS for stylesheets
