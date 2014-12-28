@@ -32,10 +32,32 @@ body{
 	background:#eee;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.navBar{
+	width: 100%;
+	border: solid black 0.01em;
+	border-radius: 10px;
+	text-align: center;
+	background-color: black;
+}
+
+.navBar li{
+	display: inline;
+}
+
+.navBar li a{
+	color: white;
+}
+
+.navBar li a:hover{
+	color: red;
+}
+
 .main{
-	margin:7em auto 0;
+	margin: 7em auto;
 	width:80%;
-	background: #fff;
+	background: rgb(245,44,71);
+	border-radius: 10px;
 }
 .header {
 	text-align:center;
