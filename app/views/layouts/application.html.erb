@@ -4,7 +4,6 @@
     <title><%= @titre %></title>
     <%= csrf_meta_tag %>
     <link href="/stylesheets/blueprint/style.css" rel='stylesheet' type='text/css' />
-
   </head>
   <body>
     <ul class="navBar">
@@ -14,11 +13,7 @@
           </ul>
     <%= yield %>
   </body>
-  <div id="footer">
-      <ul class="navBar">
-        <li><%= link_to "Home", '#' %></li>
-        <li><%= link_to "Help", '#' %></li>
-        <li><%= link_to "About", '#' %></li>
-      </ul>
-  </div>
+  <footer>
+	<p>Developed by Francois ROSSITTO, Alexandre NAPOLI and Hamza MOUNAH</p>
+  </footer>
 </html>
